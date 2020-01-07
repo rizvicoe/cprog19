@@ -1,11 +1,16 @@
 /*
     Aim: To print a string on output screen
     Author: Prof. Shiburaj P.
+    Class : FE Div C
 */
 
 #include <stdio.h>
+#include <stdlib.h>
+
 int main ()
 {
+    system("cls");
+
     printf("To,\n");
     printf("The Principal,\n");
     printf("Rizvi College of Engineering,\n");
@@ -25,7 +30,9 @@ int main ()
 
     printf("Thanking you in anticipation.\n");
     printf("Regards,\n");
-    printf("Shiburaj Pappu.");
+    printf("Shiburaj Pappu.\n\n\n\n");
+
+    system("pause");
 
     return 0;
 }
