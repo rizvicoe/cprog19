@@ -1,37 +1,27 @@
 /*
-    Aim: To find sum and average of three numbers
+    Aim: To find area and perimeter of the circle
     Author: Prof. Shiburaj P.
     Class : FE Div C
 */
 
 #include <stdio.h>
-#include <stdlib.h>
+#define PI 3.14
 
 int main ()
 {
-    float number_1, number_2, number_3, sum, average;
-    system("cls");
+    int radius;
+    float area, perimeter;
 
-    printf("\t**** Sum & Average Calculator ****\n\n");
+    printf("\t**** Circle Area Calculator ****\n\n");
 
-    // Get user input
-    printf("Enter Number 1:");
-    scanf("%f",&number_1);
-    printf("Enter Number 2:");
-    scanf("%f",&number_2);
-    printf("Enter Number 3:");
-    scanf("%f",&number_3);
+    printf("Enter radius of circle:");
+    scanf("%d",&radius);
 
-    // Calculations
-    sum = number_1 + number_2 + number_3;
-    average = sum / 3;
+    perimeter = 2 * PI * radius;
+    area = PI * radius * radius;
 
-    printf("Sum of the Numbers = %f\n",sum);
-    printf("Average of the Numbers = %f\n",average);
+    printf("Perimeter of the Circle = %.2f\n",perimeter);
+    printf("Area of the Circle = %.2f\n",area);
 
-
-
-    system("pause");
     return 0;
 }
-

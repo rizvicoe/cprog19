@@ -5,7 +5,7 @@
 1. To print formated string to the output device.
 2. To find area of circle.
 3. To find Sum and Average of Three numbers
-4. To make a simple calculator.
+4. To make a simple interest calculator.
 5. To swap two numbers with eachother (With and Without Temp Variable).
 6. To find the greatest number amongst three entered numbers
 7. To find the total , percentage and grade of the score of the students amongst n subjects.
@@ -106,3 +106,7 @@ arrays.
 -   -std=c89|c99|c9x = To change the standard
 -   -pedantic-errors = Strict conformance to ISO standards
 -   -Wall = Show errors and warnings
+
+## Links
+-   List of C Programs [(https://www.faceprep.in/c-programming-questions/)](https://www.faceprep.in/c-programming-questions/)
+-   List of C Programs Link 2 [(https://www.studytonight.com/c/programs/)](https://www.studytonight.com/c/programs/)

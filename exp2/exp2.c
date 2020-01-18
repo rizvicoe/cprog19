@@ -1,31 +1,31 @@
 /*
-    Aim: To find area and perimeter of the circle
-    Author: Prof. Shiburaj P.
-    Class : FE Div C
+*   Aim: to calculate the simple interest taking principal,
+*        rate of interest and no. of years as inputs from user.
+*   Author: Prof. Shiburaj
+*   Class: Div C
 */
 
 #include <stdio.h>
-#include <stdlib.h>
 
-int main ()
+int main()
 {
-    int radius;
-    float area, perimeter;
-    system("cls");
+    float principal,rate_of_interest,years,simple_interest;
 
-    printf("\t**** Circle Area Calculator ****\n\n");
+    printf("*** Simple Interest Calculator ***\n\n");
 
-    printf("Enter radius of circle:");
-    scanf("%d",&radius);
+    printf("Enter Principal Amount:");
+    scanf("%f",&principal);
 
-    perimeter = 2 * 3.14 * radius; 
-    area = 3.14 * radius * radius;
+    printf("Enter Rate of Interest:");
+    scanf("%f",&rate_of_interest);
 
-    printf("Perimeter of the Circle = %f\n",perimeter);
-    printf("Area of the Circle = %f\n",area);
+    printf("Enter No. of Years:");
+    scanf("%f",&years);
+
+    simple_interest = principal * rate_of_interest * years;
+
+    printf("\n\nCalculated Simple Interest: %.2f", simple_interest);
 
 
-
-    system("pause");
     return 0;
 }
