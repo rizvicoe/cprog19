@@ -22,8 +22,8 @@ int main ()
     sum = number_1 + number_2 + number_3;
     average = sum / 3;
 
-    printf("Sum of the Numbers = %f\n",sum);
-    printf("Average of the Numbers = %f\n",average);
+    printf("Sum of the Numbers = %.0f\n",sum);
+    printf("Average of the Numbers = %.2f\n",average);
 
     return 0;
 }

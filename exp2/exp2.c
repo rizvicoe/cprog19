@@ -16,13 +16,13 @@ int main()
     printf("Enter Principal Amount:");
     scanf("%f",&principal);
 
-    printf("Enter Rate of Interest:");
+    printf("Enter Rate of Interest (in percentage):");
     scanf("%f",&rate_of_interest);
 
     printf("Enter No. of Years:");
     scanf("%f",&years);
 
-    simple_interest = principal * rate_of_interest * years;
+    simple_interest = (principal * rate_of_interest * years)/100;
 
     printf("\n\nCalculated Simple Interest: %.2f", simple_interest);
 

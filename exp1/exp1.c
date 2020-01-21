@@ -17,7 +17,7 @@ int main ()
     printf("\tSubject : Requesting some books for the library,\n\n\n");
 
     printf("Dear Sir/Madam,\n");
-    printf("\tMyself shiburaj would like to request purchase the following books for the library.\n\n");
+    printf("\tMyself jon doe would like to request purchase the following books for the library.\n\n");
     printf("_________________________________________________________________________________________\n");
     printf("|Title\t\t\t\t\t\t|Author\t\t\t|Publication\t|\n");
     printf("|_______________________________________________|_______________________|_______________|\n");
@@ -28,7 +28,7 @@ int main ()
 
     printf("Thanking you in anticipation.\n");
     printf("Regards,\n");
-    printf("Shiburaj Pappu.\n\n\n\n");
+    printf("Jon Doe.\n\n\n\n");
 
     return 0;
 }

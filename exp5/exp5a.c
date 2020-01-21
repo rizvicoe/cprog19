@@ -14,7 +14,6 @@ int main ()
 
     printf("\t**** Swap Two Number (With Temporary Variable) ****\n\n");
 
-    // Get user input
     printf("Enter Number 1:");
     scanf("%d",&number_1);
     printf("Enter Number 2:");
@@ -22,7 +21,7 @@ int main ()
 
     printf("Before Swaping \n\tNumber 1 = %d\n\tNumber 2 = %d\n\n", number_1, number_2);
 
-    // Swapping
+
     temp = number_1;
     number_1 = number_2;
     number_2 = temp;
