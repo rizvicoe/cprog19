@@ -1,13 +1,44 @@
 # C Programming
 
-## List of Experiments
+## List of Programs
 
-1. To print formated string to the output device.
-2. To find area of circle.
-3. To find Sum and Average of Three numbers
-4. To make a simple interest calculator.
-5. To swap two numbers with eachother (With and Without Temp Variable).
-6. To find the greatest number amongst three entered numbers
+1. WAP to print your name on screen. [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/1)
+2. WAP to print the following pattern using printf. [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/2)
+
+    ![Task 2 Pattern](assets/images/week1-task2.jpg)
+3. WAP to print the following table using printf. [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/3)
+
+    ![Task 2 Pattern](assets/images/week1-task3.jpg)
+4. __[ Exp 1 ] WAP to print a letter as shown below using escape sequences.__ [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/4)
+    ![Task 2 Pattern](assets/images/week1-task4.jpg)
+5. WAP to calculate the area of square. [Task Details](https://rizvicoe.github.io/cptasks/week2.html#/1)
+6. __[ Exp 2 ] WAP to calculate the simple interest taking principal,rate of interest and no. of years as inputs from user.__ [Task Details](https://rizvicoe.github.io/cptasks/week2.html#/2)
+7. __[ Exp 3 ] WAP to calculate the sum and average of three numbers.__ [Task Details](https://rizvicoe.github.io/cptasks/week2.html#/3)
+8. __[ Exp 4 ] WAP to calculate perimeter and area of a circle with the help of constants.__ [Task Details](https://rizvicoe.github.io/cptasks/week2.html#/4)
+9. WAP to calculate the resistance required (R) to be connected in series with the LED to protect it from blowing up when Voltage (V) is applied. [Task Details](https://rizvicoe.github.io/cptasks/week2.html#/5)
+    
+    ![Task 2 Pattern](assets/images/week2_task5.png)
+10. WAP to calculate the gross salary of the employee given the basic salary. Travelling Allowance, Dearness Allowance and Home Rental Allowance is 20%, 80% and 15% of Basic Salary respectively. [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/1)
+11. __[ Exp 5A ] WAP to swap two numbers with the help of a Temporary Number.__ [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/2)
+12. __[ Exp 5B ] WAP to swap two numbers without the help of a Temporary Number.__ [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/3)
+13. WAP to check if the number is even or not using conditional operator. [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/4)
+14. __[ Exp 6 ] WAP to find the greatest number amongst three entered numbers using conditional operator.__  [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/5)
+15. WAP to find sum of two integers without using ‘+’ operator. [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/6)
+16. Write an algorithm and program to find if the entered character is a vovel or not. [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/1)
+17. Draw a flowchart and program to convert a lower case character to uppercase and vise-versa. [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/2) 
+18. WAP to find the roots of the quadratic equation with real roots using math library. [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/3)
+
+19. WAP to check if the year entered is a leap year or not.__ [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/4)
+20. WAP to find the body mass index of the user when user enters height and weight. Also find the BMI category to which the user belongs with elseif ladder.__ [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/5) BMI Categories:
+    - Underweight = <18.5
+    - Normal weight = 18.5–24.9
+    - Overweight = 25–29.9
+    - Obesity = BMI of 30 or greater
+21. WAP to read three integer values from the keyboard and displays the output stating that they are sides of right angled triangle or not. [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/6)
+
+
+
+
 7. To find the total , percentage and grade of the score of the students amongst n subjects.
 8. To display pattern.
 9. To convert decimal to binary number.
