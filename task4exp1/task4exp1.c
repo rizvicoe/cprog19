@@ -1,7 +1,7 @@
 /*
-    Aim: To print a string on output screen
+    Aim: WAP to print a letter as shown below using escape sequences.
     Author: Prof. Shiburaj P.
-    Class : FE Div C
+    Class :
 */
 
 #include <stdio.h>

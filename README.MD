@@ -6,7 +6,7 @@
 2. WAP to print the following pattern using printf. [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/2)
 
     ![Task 2 Pattern](assets/images/week1-task2.jpg)
-3. WAP to print the following table using printf. [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/3)
+3. WAP to print the following table using printf without using loops. [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/3)
 
     ![Task 2 Pattern](assets/images/week1-task3.jpg)
 4. __[ Exp 1 ] WAP to print a letter as shown below using escape sequences.__ [Task Details](https://rizvicoe.github.io/cptasks/week1.html#/4)
@@ -141,3 +141,58 @@ arrays.
 ## Links
 -   List of C Programs [(https://www.faceprep.in/c-programming-questions/)](https://www.faceprep.in/c-programming-questions/)
 -   List of C Programs Link 2 [(https://www.studytonight.com/c/programs/)](https://www.studytonight.com/c/programs/)
+
+## C Program Structure (Basic)
+```
+/*
+    Aim: ...
+    Author: ...
+    Class: ...
+*/
+
+#include <stdio.h>
+
+int main ()
+{
+    // Your code starts here
+
+
+    return 0;
+}
+
+```
+
+## C Program Structure (Advanced)
+```
+/* Documentation */
+/*
+    Aim: ...
+    Author: ...
+    Class: ...
+*/
+
+/* Libraries */
+#include <stdio.h>
+
+/* Function Declarations */
+int example(int x);
+
+/* Global Variables & Constants */
+int x = 100;
+#define PI 3.142 
+
+/* Main Function */
+int main ()
+{
+    // Your code starts here
+
+
+    return 0;
+}
+
+/* Function Definitions */
+int example(int x){
+
+}
+
+```
