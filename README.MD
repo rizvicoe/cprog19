@@ -26,31 +26,36 @@
 15. WAP to find sum of two integers without using ‘+’ operator. [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/6)
 16. Write an algorithm and program to find if the entered character is a vovel or not. [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/1)
 17. Draw a flowchart and program to convert a lower case character to uppercase and vise-versa. [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/2) 
-18. WAP to find the roots of the quadratic equation with real roots using math library. [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/3)
-
-19. WAP to check if the year entered is a leap year or not.__ [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/4)
-20. WAP to find the body mass index of the user when user enters height and weight. Also find the BMI category to which the user belongs with elseif ladder.__ [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/5) BMI Categories:
+18. WAP to check if the year entered is a leap year or not.__ [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/4)
+19. WAP to find the body mass index of the user when user enters height and weight. Also find the BMI category to which the user belongs with elseif ladder.__ [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/5) BMI Categories:
     - Underweight = <18.5
     - Normal weight = 18.5–24.9
     - Overweight = 25–29.9
     - Obesity = BMI of 30 or greater
-21. WAP to read three integer values from the keyboard and displays the output stating that they are sides of right angled triangle or not. [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/6)
+20. WAP to read three integer values from the keyboard and displays the output stating that they are sides of right angled triangle or not. [Task Details](https://rizvicoe.github.io/cptasks/week3.html#/6)
+21. WAP to find the roots of the quadratic equation with real roots using math library. [Task Details](https://rizvicoe.github.io/cptasks/week4.html#/3) 
+22. WAP to read weekday number and print weekday name using switch.
+23. WAP to design calculator with basic operations using switch.
+24. Modify the previous program to run repeatedly along with a exit condition using goto.
+25. WAP to find the height of the building when the user enters the distance from the building and the angle of elevation in degrees.
+![Task 2 Pattern](assets/images/week5_task4.png)
 
 
 
 
-7. To find the total , percentage and grade of the score of the students amongst n subjects.
-8. To display pattern.
-9. To convert decimal to binary number.
-10. To reverse a number
-11. To print fibonanci series
-12. To find the sum of digits of the entered number.
-13. To concatenate two strings.
-14. To search a number in the user entered numbers.
-15. To find the smallest , largest, sum and average of the array of numbers.
-16. To check if the string is palindrome
-17. To display the marks of the students with roll number and name using structures.
-18. To count the number of vowels, consonants, digits and spaces.
+
+1.  To find the total , percentage and grade of the score of the students amongst n subjects.
+2.  To display pattern.
+3.  To convert decimal to binary number.
+4.  To reverse a number
+5.  To print fibonanci series
+6.  To find the sum of digits of the entered number.
+7.  To concatenate two strings.
+8.  To search a number in the user entered numbers.
+9.  To find the smallest , largest, sum and average of the array of numbers.
+10. To check if the string is palindrome
+11. To display the marks of the students with roll number and name using structures.
+12. To count the number of vowels, consonants, digits and spaces.
 
 ## Syllabus
 - Module 1
