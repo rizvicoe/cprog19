@@ -39,23 +39,18 @@
 24. Modify the previous program to run repeatedly along with a exit condition using goto.
 25. WAP to find the height of the building when the user enters the distance from the building and the angle of elevation in degrees.
 ![Task 2 Pattern](assets/images/week5_task4.png)
-
-
-
-
-
-1.  To find the total , percentage and grade of the score of the students amongst n subjects.
-2.  To display pattern.
-3.  To convert decimal to binary number.
-4.  To reverse a number
-5.  To print fibonanci series
-6.  To find the sum of digits of the entered number.
-7.  To concatenate two strings.
-8.  To search a number in the user entered numbers.
-9.  To find the smallest , largest, sum and average of the array of numbers.
-10. To check if the string is palindrome
-11. To display the marks of the students with roll number and name using structures.
-12. To count the number of vowels, consonants, digits and spaces.
+26. WAP to print all the odd numbers between 0 and a number entered by the user. Also display the sum of these numbers.
+27. WAP to convert binary to decimal number.
+28. WAP to display patterns.
+29. WAP to reverse a given number.
+30. WAP to print fibonanci series.
+31. To find the sum of digits of the entered number.
+32. To concatenate two strings.
+33. To search a number in the user entered numbers.
+34. To find the smallest , largest, sum and average of the array of numbers.
+35. To check if the string is palindrome
+36. To display the marks of the students with roll number and name using structures.
+37. To count the number of vowels, consonants, digits and spaces.
 
 ## Syllabus
 - Module 1
