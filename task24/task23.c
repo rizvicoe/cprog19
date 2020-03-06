@@ -17,27 +17,31 @@ int main ()
     system("cls");
     printf("*** Basic Calculator ***\n\n\n");
 
-    printf("Please Select Operation:\n");
+
     printf("\t+\t:\tAddition:\n");
     printf("\t-\t:\tSubtraction:\n");
     printf("\t*\t:\tMultiplication:\n");
     printf("\t/\t:\tDivision:\n");
     printf("\t%%\t:\tModulus:\n");
-
     printf("\t^\t:\tPower:\n");
     printf("\t$\t:\tSquare Root:\n");
-    printf("\tx\t:\tExit:\n\n");
-
+    printf("\tx\t:\tExit:\n\n\n");
+    printf("Please Select Operation:");
     scanf(" %c",&operation);
-    printf("Operator : %c\n",operation);
+
     if(operation=='x'){
         return 0;
     }
 
-    printf("Enter First Number:");
-    scanf("%f",&num1);
-    printf("Enter Second Number:");
-    scanf("%f",&num2);
+    if(operation=='$'){
+        printf("Enter Number:");
+        scanf("%f",&num1);
+    }else{
+        printf("Enter First Number:");
+        scanf("%f",&num1);
+        printf("Enter Second Number:");
+        scanf("%f",&num2);
+    }
 
     switch(operation){
         case '+':

@@ -71,7 +71,7 @@
         -   If statement, If-else statement, Nested if-else, else-if Ladder
         -   Switch statement
         -   For loop, While loop
--   Module 3
+- Module 3
     -   Functions
         -   Introduction to functions
         -   Function prototype, Function definition, Accessing a function and

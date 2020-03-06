@@ -15,7 +15,7 @@ int main ()
     printf("Enter Number:");
     scanf("%d",&a);
 
-    (a%2==0)?printf("The number is Even"):printf("The number id Odd");
+    (a%2==0)?printf("The number is Even"):printf("The number is Odd");
 
     return 0;
 }

@@ -14,12 +14,13 @@ int main ()
 
     printf("*** Basic Calculator ***\n\n\n");
 
-    printf("Please Select Operation:\n");
+
     printf("\t+\t:\tAddition:\n");
     printf("\t-\t:\tSubtraction:\n");
     printf("\t*\t:\tMultiplication:\n");
     printf("\t/\t:\tDivision:\n");
-    printf("\t%%\t:\tModulus:\n");
+    printf("\t%%\t:\tModulus:\n\n\n");
+    printf("Please Select Operation:");
     scanf("%c",&operation);
 
     printf("Enter First Number:");

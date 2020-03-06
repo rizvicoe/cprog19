@@ -14,21 +14,28 @@ int main ()
 
     printf("*** Basic Calculator ***\n\n\n");
 
-    printf("Please Select Operation:\n");
+
     printf("\t+\t:\tAddition:\n");
     printf("\t-\t:\tSubtraction:\n");
     printf("\t*\t:\tMultiplication:\n");
     printf("\t/\t:\tDivision:\n");
     printf("\t%%\t:\tModulus:\n");
-
     printf("\t^\t:\tPower:\n");
-    printf("\t$\t:\tSquare Root:\n");
-    scanf("%c",&operation);
+    printf("\t$\t:\tSquare Root:\n\n\n");
 
-    printf("Enter First Number:");
-    scanf("%f",&num1);
-    printf("Enter Second Number:");
-    scanf("%f",&num2);
+    printf("Please Select Operation:");
+    scanf(" %c",&operation);
+
+    if(operation=='$'){
+        printf("Enter Number:");
+        scanf("%f",&num1);
+    }else{
+        printf("Enter First Number:");
+        scanf("%f",&num1);
+        printf("Enter Second Number:");
+        scanf("%f",&num2);
+    }
+
 
     switch(operation){
         case '+':
