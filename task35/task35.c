@@ -6,7 +6,7 @@
 #include<stdio.h>
 
 int main(){
-    int start,end,num,last_d,rem_d,fact=1,sum=0;
+    long int start,end,num,last_d,rem_d,fact=1,sum=0;
 
     printf("** Strong Number Finder **\n\n");
 

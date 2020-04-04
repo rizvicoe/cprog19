@@ -27,7 +27,7 @@ int main ()
         }
         for(j=0;j<=i;j++){
             pt = calc_factorial(i)/(calc_factorial(j)*calc_factorial(i-j));
-            printf("%4d",pt);
+            printf(" %d",pt);
         }
         printf("\n");
     }
