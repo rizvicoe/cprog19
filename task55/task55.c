@@ -9,19 +9,20 @@
 */
 
 #include <stdio.h>
-void format_string(char msg[],char d){
+void format_string(char *msg,char *d){
     int i=0,j=0;
-    while(msg[i]!='\0'){
-        if(msg[i]!=d){
-            msg[j]=msg[i];
+    while(*(msg+i)!='\0'){
+        if(*(msg+i)!=*d){
+            *(msg+j)=*(msg+i);
             j++;
         }
         i++;
     }
-    msg[j] = '\0';
+    *(msg+j) = '\0';
 
     printf("Formatted String:\n");
     puts(msg);
+
 }
 
 int main ()
@@ -36,7 +37,7 @@ int main ()
     printf("Enter a Charachter to Filter:");
     scanf(" %c",&del);
 
-    format_string(message,del);
+    format_string(message,&del);
 
     return 0;
 }

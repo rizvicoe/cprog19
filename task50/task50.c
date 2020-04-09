@@ -27,7 +27,7 @@ int main ()
     scanf("%d:%d:%d",&my_time.hour,&my_time.minute,&my_time.second);
     printf("\n\n");
     while(1){
-        printf("\t%d:%d:%d",my_time.hour,my_time.minute,my_time.second);
+        printf("\t%02d:%02d:%02d\r",my_time.hour,my_time.minute,my_time.second);
         Sleep(1000);
         my_time.second++;
         if(my_time.second>=60){
@@ -43,9 +43,6 @@ int main ()
             my_time.minute = 0;
             my_time.second = 0;
         }
-
-        printf("\r                          ");
-        printf("\r");
     }
 
     return 0;

@@ -21,10 +21,24 @@ void print_student(struct student_record s){
     printf("\tMarks: %.2f\n\n",s.total_marks);
 }
 
+void sort_students(struct student_record s[]){
+    int i,j;
+    struct student_record temp;
+    for(i=0;i<9;i++){
+        for(j=0;j<9;j++){
+            if(s[j].total_marks<s[j+1].total_marks){
+                temp = s[j];
+                s[j] = s[j+1];
+                s[j+1] = temp;
+            }
+        }
+    }
+}
+
 int main ()
 {
     struct student_record student[10];
-    int i,first,second,third,highest_marks=0;
+    int i;
 
     printf("** Topper Finder **\n\n");
 
@@ -36,20 +50,15 @@ int main ()
         scanf("%d",&student[i].roll_number);
         printf("\tTotal Marks:");
         scanf("%f",&student[i].total_marks);
-        if(student[i].total_marks>highest_marks){
-            highest_marks = student[i].total_marks;
-            third = second;
-            second = first;
-            first = i;
-        }
-    }
 
+    }
+    sort_students(student);
     printf("First Topper:\n");
-    print_student(student[first]);
+    print_student(student[0]);
     printf("Second Topper:\n");
-    print_student(student[second]);
+    print_student(student[1]);
     printf("Third Topper:\n");
-    print_student(student[third]);
+    print_student(student[2]);
 
     return 0;
 }
