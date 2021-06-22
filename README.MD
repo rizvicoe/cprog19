@@ -60,7 +60,9 @@ Following are the tasks to be performed by all the students.
 -   Task 27 : WAP to find the sum and average of the numbers entered by the user.
 -   Task 28 : WAP to print Fibonacci Series till number entered by the user is reached.
 -   Task 29 : WAP to print the following pattern.
-    [List of Patterns](assets/Patterns.pdf)
+    [List of Patterns](assets/Patterns.pdf) 
+    
+    > Credits to: Mr. SHAIKH MOHD ASJAD AZAD, Department of Computer Engineering, First Year 2021. for coding all the patterns.
 
 -   Task 30 : WAP to the following series where user enters the value for n. Also compute the value of the series.
 
